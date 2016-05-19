@@ -1,0 +1,41 @@
+2011/07/25 傍晚收到信件
+
+2011/07/26
+  11:30 在辦公室解壓縮，閱讀題目內容，搜尋以下資訊
+  
+  1. 先找：CSS 定位 切圖
+      http://www.google.com.tw/search?hl=zh-TW&q=css+%E5%AE%9A%E4%BD%8D+%E5%88%87%E5%9C%96&oq=css+%E5%AE%9A%E4%BD%8D+%E5%88%87%E5%9C%96&aq=f&aqi=&aql=1&gs_sm=e&gs_upl=31804l52596l0l53294l8l8l0l3l0l0l223l841l0.4.1l5
+      http://www.yuzhiguo.com/articleview.asp?id=457
+  
+  2. 再找：CSS Sprites
+      http://www.google.com.tw/search?aq=f&sourceid=chrome&ie=UTF-8&q=CSS+Sprites
+      http://www.techbang.com.tw/posts/5803-today-google-doodle-css-sprites-principle
+  
+  12:00
+  
+  1. 開始動手寫 CSS Sprites 測試：
+      CSSsprites.html
+  
+  2. 找尋亂數洗牌：
+      http://www.google.com.tw/search?hl=zh-TW&q=javascript+%E4%BA%82%E6%95%B8+%E4%B8%8D%E9%87%8D%E8%A4%87&oq=javascript+%E4%BA%82%E6%95%B8+&aq=0&aqi=g1&aql=1&gs_sm=e&gs_upl=4318l4318l0l5343l1l1l0l0l0l0l211l211l2-1l1
+      http://kelunyang.wordpress.com/2009/04/01/javascript%E7%9A%84poker%E6%BC%94%E7%AE%97%E6%B3%95%EF%BC%88%E7%99%BC%E4%BA%82%E6%95%B8%E4%B8%8D%E9%87%8D%E8%A4%87%EF%BC%89/
+  
+  3. 撰寫遊戲控制、測試（基本解）：
+      test.html
+  
+  4. 分離 CSS、JS：
+      test.css
+      test.js
+  
+  18:30 資料夾打包收工回家
+  
+2011/07/27
+  10:30 修改、撰寫 note.txt，構思進階功能
+  
+  11:30 複製 test.html、test.css、test.js，更名為 test_pro.*，並開撰寫進階功能
+  
+  1. 新增修改分割格數功能
+  
+  2. 新增圖片變換功能
+  
+  15:30 資料夾打包收工

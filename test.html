@@ -1,0 +1,73 @@
+<html>
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<title>learningtech test 1</title>
+
+<script language="JavaScript" type="text/JavaScript">
+var b = 3;
+
+var total = b * b;
+//var total = b * b + 1;
+</script>
+
+<script src="test.js" language="javascript"></script>
+
+<style type="text/css">
+</style>
+
+<link href="test.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body onload="init();">
+  <div>
+    <span>
+      <div id="GameHint">
+        <img src="default.png"/>
+        <p>（ 原始圖片 ）</p>
+      </div>
+    </span>
+    <span>
+      <div id="GameBody">
+        <div class="innerRow">
+          <span id="place0" class="innerBlock" onclick="play(0);"></span>
+          <span id="place1" class="innerBlock" onclick="play(1);"></span>
+          <span id="place2" class="innerBlock" onclick="play(2);"></span>
+        </div>
+        <div class="innerRow">
+          <span id="place3" class="innerBlock" onclick="play(3);"></span>
+          <span id="place4" class="innerBlock" onclick="play(4);"></span>
+          <span id="place5" class="innerBlock" onclick="play(5);"></span>
+        </div>
+        <div class="innerRow">
+          <span id="place6" class="innerBlock" onclick="play(6);"></span>
+          <span id="place7" class="innerBlock" onclick="play(7);"></span>
+          <span id="place8" class="innerBlock" onclick="play(8);"></span>
+        </div>
+        <p>（ 九宮格 ）</p>
+      </div>
+    </span>
+    <span>
+      <div id="GameUI">
+        <div>
+          <p>Game Control UI</p>
+        </div>
+        <div>
+          <input id="startBtn" type="button" value="Start" onclick="start();" />
+        </div>
+        <div>
+          <div id="GameResult"></div>
+        </div>
+        <div>
+          <span id="jumper" class="innerBlock" onclick="checker( true );"></span>
+          <input id="tmper" type="hidden" />
+        </div>
+      </div>
+    </span>
+  </div>
+</body>
+
+</html>

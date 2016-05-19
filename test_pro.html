@@ -1,0 +1,80 @@
+<html>
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<title>learningtech test 1</title>
+
+<script language="JavaScript" type="text/JavaScript"></script>
+
+<script src="test_pro.js" language="javascript"></script>
+
+<style type="text/css"></style>
+
+<link href="test_pro.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body onload="init();">
+  <div>
+    <span>
+      <div id="GameHint">
+        <img id="HintBlock" />
+        <p>（ 原始圖片 ）</p>
+      </div>
+    </span>
+    <span>
+      <div id="GameBody">
+        <div id="GridBolck"></div>
+        <p>（ 九宮格 ）</p>
+      </div>
+    </span>
+    <span>
+      <div id="GameUI">
+        <div>
+          <p>Game Control UI</p>
+        </div>
+        <div id="ImageSwitcher">
+          <span>
+            <span><input id="switchImg1" type="radio" onclick="switchIMG(1);" /></span>
+            <span><img src="default.png" /></span>
+          </span>
+          <span>
+            <span><input id="switchImg2" type="radio" onclick="switchIMG(2);" /></span>
+            <span><img src="default_560x300.png" /></span>
+          </span>
+          <span>
+            <span><input id="switchImg3" type="radio" onclick="switchIMG(3);" /></span>
+            <span><img src="default_600x300_1.png" /></span>
+          </span>
+          <span>
+            <span><input id="switchImg4" type="radio" onclick="switchIMG(4);" /></span>
+            <span><img src="default_600x300_2.png" /></span>
+          </span>
+          <span>
+            <span><input id="switchImg5" type="radio" onclick="switchIMG(5);" /></span>
+            <span><img src="default_640x480.png" /></span>
+          </span>
+        </div>
+        <div>
+          <input id="sizeBtn" type="button" value="Resize" onclick="resize();" />
+        </div>
+        <div>
+          <input id="startBtn" type="button" value="Start" onclick="start();" />
+        </div>
+<!--
+        <div>
+          <div id="GameResult"></div>
+        </div>
+-->
+        <div>
+          <span id="jumper" class="innerBlock" onclick="checker( true );"></span>
+          <input id="tmper" type="hidden" />
+        </div>
+      </div>
+    </span>
+  </div>
+</body>
+
+</html>

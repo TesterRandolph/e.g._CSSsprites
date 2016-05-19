@@ -1,0 +1,47 @@
+p {
+  text-align: center;
+  margin: 10px;
+}
+
+#GameHint {
+  display: inline-block;
+  margin: 10px;
+  border: 1px solid navy;
+}
+
+#GameHint img {
+  border: 1px dotted navy;
+  margin: 10px;
+}
+
+#GameBody {
+  display: inline-block;
+  border: 1px solid navy;
+//  margin: 10px;
+}
+
+div.innerRow {
+//  border: 1px dotted navy;
+//  margin: 10px;
+}
+
+span.innerBlock {
+  cursor: pointer;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border: 3px double grey;
+//  margin: 10px;
+}
+
+span.innerBlock:hover {
+  border: 3px solid red;
+}
+
+#GameUI {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid navy;
+  text-align: center;
+}
